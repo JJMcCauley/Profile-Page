@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "rimraf dist && npm run copy-files",
-    "copy-files": "mkdir dist && cp -r !(dist) dist"
+    "copy-files": "mkdir dist && rsync -av --exclude='dist' . dist"
   },
   "author": "Jack McCauley",
   "license": "ISC",
