@@ -42,3 +42,6 @@ jobs:
 
       - name: Create CNAME file
         run: echo "www.jack-mccauley.com" > dist/CNAME
+
+      - name: List files in dist directory
+        run: ls -R dist
