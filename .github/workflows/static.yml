@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18" # You can use a different version if required.
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the website
+        run: npm run build
+
+      - name: Remove old "dist" directory
+        run: |
+          if [ -d "dist" ]; then
+            rm -rf dist
+          fi
+          if [ -d "dist" ]; then
+            rmdir /s /q dist
+          fi
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdir dist
+          rsync -av --exclude=package.json --exclude=package-lock.json ./ dist
+        env:
+          NODE_ENV: production
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create CNAME file
+        run: echo "www.jack-mccauley.com" > dist/CNAME

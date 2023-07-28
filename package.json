@@ -1,0 +1,16 @@
+{
+  "name": "jjmccauley.github.io",
+  "version": "1.0.0",
+  "description": "Jack McCauley's profile page",
+  "main": "index.html",
+  "scripts": {
+    "build": "rimraf dist && npm run copy-files",
+    "copy-files": "copyfiles -u 1 \"!(dist)/**/*\" dist"
+  },
+  "author": "Jack McCauley",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^5.0.1"
+  }
+}

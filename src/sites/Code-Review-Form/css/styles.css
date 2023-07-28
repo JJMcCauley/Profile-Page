@@ -1,0 +1,201 @@
+/* Following Code to remove stepper button from number input taken from https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+a * {
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+body {
+  background-image: radial-gradient(#ffffffa6, #7fc2e5);
+}
+
+.header,
+footer {
+  background-color: #7fc2e5;
+  margin: 0;
+  text-align: center;
+  padding: 1em;
+  color: #fffef9;
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+main {
+  background-color: #fffef9;
+  color: #2a546a;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+input,
+select {
+  width: 100%;
+}
+
+textarea {
+  width: 90%;
+}
+
+input,
+textarea,
+button,
+#comment_section,
+select {
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+  box-shadow: 0 0 6pt 4pt cornflowerblue;
+  border: none;
+  outline: none;
+}
+
+#comment_section {
+  padding: 1em 0;
+}
+
+#form_header {
+  margin-top: 0;
+  padding: 1em;
+  text-align: center;
+  border-bottom: #2a546a solid 6px;
+}
+
+fieldset {
+  margin-top: 1em;
+  border: none;
+}
+
+.wrapper {
+  border-top: #2a546a solid 3px;
+  margin: 0.3em 0.3em 0 0.3em;
+}
+
+.input_wrapper {
+  display: inline-block;
+}
+
+#newsletter_signup input,
+#newsletter_signup label {
+  display: inline-block;
+}
+
+#newsletter_signup input {
+  width: auto;
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+input {
+  margin: 0.5em 0 1em 0;
+}
+
+input::placeholder {
+  text-align: right;
+}
+
+#format_label,
+textarea {
+  margin-top: 1em;
+}
+
+textarea {
+  height: 8em;
+}
+
+.p-left {
+  padding-left: 1.5rem;
+}
+
+.m-right {
+  margin-right: 1.5rem;
+}
+
+.m-left {
+  margin-left: 1.5rem;
+}
+
+.m-1-5 {
+  margin: 1.5rem;
+}
+
+/* Following Code Adapted from https://css-tricks.com/almanac/properties/t/transition/ */
+textarea,
+input {
+  background-color: lightgray;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+textarea:focus,
+input:focus {
+  background-color: white;
+}
+
+button {
+  background-color: #00ac22;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+button:hover {
+  background-color: rgba(0, 152, 54, 1);
+}
+
+p {
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 0.5em;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 717.5px;
+  }
+
+  .contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #newsletter_signup {
+    width: 100%;
+  }
+
+  main {
+    width: 705px;
+  }
+}

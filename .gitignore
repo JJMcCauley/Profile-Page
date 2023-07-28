@@ -1,0 +1,5 @@
+.env
+playground*
+/node_modules/
+/components/
+dist

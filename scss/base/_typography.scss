@@ -1,0 +1,78 @@
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.sans-serif {
+  font-family: var(--bs-body-font-family);
+}
+
+.p-text-border {
+  color: $p-text-color;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.p-text-color {
+  color: $p-text-color;
+}
+
+.p-text-border-reverse {
+  color: black;
+  text-shadow: -1px 1px 0 $p-text-color, 1px 1px 0 $p-text-color,
+    1px -1px 0 $p-text-color, -1px -1px 0 $p-text-color;
+}
+
+.black {
+  color: black;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.email:hover,
+.email:focus,
+.text-border-accent:focus,
+.text-border-accent:hover {
+  color: $p-accent-color;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  cursor: pointer;
+}
+
+.p-email {
+  font-size: 0.7rem;
+}
+
+.l-text {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+#p-label {
+  color: $p-secondary-color;
+  text-shadow: -1px 1px 0 $p-primary-color, 1px 1px 0 $p-primary-color,
+    1px -1px 0 $p-primary-color, -1px -1px 0 $p-primary-color;
+}
+
+#v-label {
+  color: $v-secondary-color;
+  text-shadow: -1px 1px 0 $v-primary-color, 1px 1px 0 $v-primary-color,
+    1px -1px 0 $v-primary-color, -1px -1px 0 $v-primary-color;
+}
+
+#d-label {
+  color: $d-secondary-color;
+  text-shadow: -1px 1px 0 $d-primary-color, 1px 1px 0 $d-primary-color,
+    1px -1px 0 $d-primary-color, -1px -1px 0 $d-primary-color;
+}
+
+.small-font {
+  font-size: 0.6rem;
+}

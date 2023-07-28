@@ -1,0 +1,72 @@
+/* ============================================= */
+/*                Variables                      */
+/* ============================================= */
+
+// Colors
+
+// Pastel Theme
+$p-primary-color: rgb(159, 186, 253);
+$p-primary-lighter: rgb(190, 206, 252);
+$p-primary-darker: rgb(109, 140, 218);
+$p-secondary-color: rgb(195, 240, 191);
+$p-secondary-lighter: rgb(172, 252, 165);
+$p-secondary-darker: rgb(94, 114, 92);
+$p-tertiary-color: rgb(197, 151, 201);
+$p-tertiary-lighter: rgb(251, 202, 255);
+$p-tertiary-darker: rgb(165, 106, 170);
+$p-accent-color: #fdbd8d;
+$p-accent-lighter: rgb(253, 208, 173);
+$p-accent-darker: rgb(161, 97, 48);
+
+$p-text-color: rgb(251, 255, 247);
+$p-text-outline: black;
+
+// Vibrant Theme
+$v-primary-color: rgb(253, 255, 137);
+$v-primary-lighter: rgb(247, 248, 184);
+$v-primary-darker: rgb(215, 218, 68);
+$v-secondary-color: rgb(247, 73, 238);
+$v-secondary-lighter: rgb(255, 190, 252);
+$v-secondary-darker: rgb(148, 60, 144);
+$v-tertiary-color: rgb(78, 227, 247);
+$v-tertiary-lighter: rgb(185, 247, 255);
+$v-tertiary-darker: rgb(78, 200, 216);
+$v-accent-color: #fdbd8d;
+$v-accent-lighter: rgb(253, 208, 173);
+$v-accent-darker: rgb(161, 97, 48);
+
+$v-text-color: rgb(251, 255, 247);
+$v-text-outline: black;
+
+
+// Dark Theme
+
+$d-primary-color: rgb(12, 12, 12);
+$d-primary-lighter: rgb(54, 54, 54);
+$d-primary-darker: rgb(109, 140, 218);
+$d-secondary-color: rgb(192, 192, 192);
+$d-secondary-lighter: rgb(172, 252, 165);
+$d-secondary-darker: rgb(65, 65, 65);
+$d-tertiary-color: rgb(73, 73, 73);
+$d-tertiary-lighter: rgb(247, 158, 255);
+$d-tertiary-darker: rgb(165, 106, 170);
+$d-accent-color: #fdbd8d;
+$d-accent-lighter: rgb(253, 208, 173);
+$d-accent-darker: rgb(161, 97, 48);
+
+$d-text-color: rgb(251, 255, 247);
+$d-text-outline: black;
+
+
+$d-text-color: black;
+$d-text-outline: rgb(251, 255, 247);
+
+
+$list-items: (
+    1: #cfe2ff,
+    2: #e2e3e5,
+    3: #d1e7dd,
+    4: #f8d7da,
+    5: #fff3cd,
+    6: #cff4fc,
+);

@@ -1,0 +1,117 @@
+/* ============================================= */
+/*              Themes                      */
+/* ============================================= */
+
+// Pastel
+
+.primary-pastel {
+  background-color: $p-primary-color;
+}
+
+.primary-pastel-darker {
+  background-color: $p-primary-darker;
+}
+
+.primary-pastel-lighter {
+  background-color: $p-primary-lighter;
+}
+
+.secondary-pastel {
+  background-color: $p-secondary-color;
+}
+
+.secondary-pastel-darker {
+  background-color: $p-secondary-darker;
+}
+
+.secondary-pastel-ligther {
+  background-color: $p-secondary-lighter;
+}
+
+.tertiary-pastel {
+  background-color: $p-tertiary-color;
+}
+
+.tertiary-pastel-lighter {
+  background-color: $p-tertiary-lighter;
+}
+
+.tertiary-pastel-darker {
+  background-color: $p-tertiary-darker;
+}
+
+.accent-pastel {
+  background-color: $p-accent-color;
+}
+
+.gradient-pastel {
+  background: linear-gradient($p-primary-color, $p-tertiary-color);
+}
+
+// Vibrant
+
+.primary-vibrant {
+  background-color: $v-primary-color;
+}
+
+.primary-vibrant-darker {
+  background-color: $v-primary-darker;
+}
+
+.primary-vibrant-lighter {
+  background-color: $v-primary-lighter;
+}
+
+.secondary-vibrant {
+  background-color: $v-secondary-color;
+}
+
+.secondary-vibrant-darker {
+  background-color: $v-secondary-darker;
+}
+
+.tertiary-vibrant {
+  background-color: $v-tertiary-color;
+}
+
+.accent-vibrant {
+  background-color: $v-accent-color;
+}
+
+.gradient-vibrant {
+  background: linear-gradient($v-primary-color, $v-tertiary-color);
+}
+
+// Dark
+
+.primary-dark {
+  background-color: $d-primary-color;
+}
+
+.primary-dark-darker {
+  background-color: $d-primary-darker;
+}
+
+.primary-dark-lighter {
+  background-color: $d-primary-lighter;
+}
+
+.secondary-dark {
+  background-color: $d-secondary-color;
+}
+
+.secondary-dark-darker {
+  background-color: $d-secondary-darker;
+}
+
+.tertiary-dark {
+  background-color: $d-tertiary-color;
+}
+
+.accent-dark {
+  background-color: $d-accent-color;
+}
+
+.gradient-dark {
+  background: linear-gradient($d-primary-color, $d-tertiary-color);
+}

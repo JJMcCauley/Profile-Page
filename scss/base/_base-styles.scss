@@ -1,0 +1,86 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+.active {
+  background-color: $p-accent-color;
+  border-radius: 50%;
+}
+
+.bg-white {
+  background-color: whitesmoke;
+}
+
+.p-gradient {
+  background: linear-gradient($p-primary-color, $p-tertiary-color);
+}
+
+.card {
+  width: 80%;
+  max-width: 18rem;
+}
+
+.p-s {
+  padding: 0.1rem;
+}
+
+.p-m {
+  padding: 0.3rem;
+}
+
+.w-90 {
+  width: 90%;
+  max-width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.flex-s {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-align-c {
+  display: flex;
+  align-items: center;
+}
+
+.form-check {
+  padding: 0;
+  width: 100%;
+}
+
+#options-wrapper {
+  width: 200px;
+}
+
+.flex-sb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hide-small {
+  display: none;
+}
+
+#credits {
+  margin: 0px;
+}
+
+#youtube-embed {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+iframe {
+  max-width: 90%;
+}
+
+#projects {
+  --bs-gutter-y: 1rem;
+}

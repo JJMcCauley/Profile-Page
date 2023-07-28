@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.post {
+  margin-bottom: 10rem;
+}
+
+.blog__content,
+.blog__title,
+.blog__link {
+  text-indent: 5rem;
+  margin: auto;
+  width: fit-content;
+}
+
+.blog__title,
+.blog__link {
+  text-align: center;
+}
+
+.blog__link {
+  font-size: 2rem;
+}
+
+:any-link {
+  color: turquoise;
+}

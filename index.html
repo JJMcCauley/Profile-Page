@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Jack McCauley's profile page as a front-end web-developer available for hire."
+    />
+    <meta
+      property="og:title"
+      content="Jack McCauley: Front-End Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="Jack McCauley's profile page as a front-end web-developer available for hire."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="http://www.jack-mccauley.com/imgs/logo.png"
+    />
+    <meta property="og:url" content="http://www.jack-mccauley.com/" />
+    <title>Jack McCauley: Front End Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <!-- header.html -->
+  <body>
+    <main>
+      <div class="title block container">
+        <h1 class="block__header">
+          Jack McCauley<br />Front-End Web Developer
+        </h1>
+      </div>
+      <div class="container grid grid--header">
+        <div class="container block header">
+          <div class="header__image">
+            <img src="./src/imgs/selfie2.jpg" alt="Picture of Jack McCauley" />
+          </div>
+          <div class="header__contact">
+            <div class="header__email">
+              <a href="mailto:mccauley.jack@gmail.com"
+                >McCauley.Jack@gmail.com</a
+              >
+            </div>
+            <div class="btn btn--primary">
+              <a href="mailto:mccauley.jack@gmail.com">E-Mail Me!</a>
+            </div>
+          </div>
+        </div>
+        <div class="container block skills">
+          <div class="block__header">
+            <h2>Skills</h2>
+            <p class="block__subheader">Select a Skill to Learn More</p>
+          </div>
+          <div class="grid mobile-1x2 skills__grid">
+            <div id="HTML" class="btn btn--primary skill">HTML</div>
+            <div id="CSS" class="btn btn--secondary skill">CSS</div>
+            <div id="JAVASCRIPT" class="btn btn--secondary skill">
+              JavaScript
+            </div>
+            <div id="REACT" class="btn btn--primary skill">React</div>
+            <div id="TYPESCRIPT" class="btn btn--primary skill">TypeScript</div>
+            <div id="API" class="btn btn--secondary skill">API</div>
+            <div id="SCSS" class="btn btn--secondary skill">Sass</div>
+            <div id="LIBRARIES" class="btn btn--primary skill">Libraries</div>
+          </div>
+          <div class="skills_description">
+            <p id="skill-description"></p>
+          </div>
+        </div>
+      </div>
+      <article class="container block projects">
+        <div class="block__header">
+          <h2>Projects</h2>
+        </div>
+
+        <section data-aos="fade-right" class="project">
+          <h3>Game Discovery App</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="https://game-discovery-app-five.vercel.app/">
+                <img
+                  src="./src/imgs/game-discovery-thumb.png"
+                  alt="Game discovery website"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              This game discovery APP takes data from the RAWG.IO api and
+              presents the all the games in a manner that can be sorted and
+              filtered in various ways such as name, platform and genre. This
+              website was built using the React library and written in
+              TypeScript to allow the site to be built modularly and error free.
+              Theming was done using the Chakra UI library the icons came from
+              the emotion library. Deployed and hosted on Vercel.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+            <div class="btn btn--primary">JS</div>
+            <div class="btn btn--secondary">REACT</div>
+            <div class="btn btn--primary">TYPESCRIPT</div>
+            <div class="btn btn--secondary">API</div>
+          </div>
+          <div class="project__gh">
+            <a href="https://github.com/JJMcCauley/game-discovery-app">
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-left" class="project">
+          <h3>Cloud Service Sign-Up</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a
+                href="https://64aee856f448e60ad988c4c7--jacks-moshify-app.netlify.app/"
+              >
+                <img
+                  src="./src/imgs/moshify-thumb.png"
+                  alt="Cloud service sign-up site"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              A mock up for a modern website built using almost entirely just
+              HTML and CSS. The website was built modularly as components to
+              ensure that each part of the website was functional and responsive
+              to various screen sizes before it was all brought together and
+              finishing touches were applied. Some JavaScript is included to
+              create collapsible menus and an external css library was used to
+              animate the page to help it feel interactive. Deployed and hosted
+              on Netlify.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+          </div>
+          <div class="project__gh">
+            <a href="https://github.com/JJMcCauley/Moshify">
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-right" class="project">
+          <h3>Registration Form</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/Code-Review-Form/">
+                <img
+                  src="./src/imgs/code-review-thumb.png"
+                  alt="Registration form"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              An example sign-up form for a newsletter. This was originally
+              built completely using CSS and HTML but has since been updated to
+              use a bit of the bootstrap framework to help everything line up
+              nicely.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+          </div>
+          <div class="project__gh">
+            <a
+              href="https://github.com/JJMcCauley/Treehouse-FE-Project-3-Webform"
+            >
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-left" class="project">
+          <h3>Dungeons & Dragons API</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/d_and_d_app/index.html">
+                <img
+                  src="./src/imgs/d&d-app-thumb.png"
+                  alt="Dungeons & Dragons API site"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              This app uses the data from the Dungeons & Dragons 5th Edition API
+              to display information about all the classes as well as creating,
+              if applicable, a complete spell list that can be clicked on for
+              further information about that spell. All information is
+              dynamically generated from the API so if information is changed to
+              the library itself the website would automatically keep itself up
+              to date.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+            <div class="btn btn--primary">JavaScript</div>
+            <div class="btn btn--secondary">API</div>
+          </div>
+          <div class="project__gh">
+            <a href="https://github.com/JJMcCauley/d_and_d_app">
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-right" class="project">
+          <h3>Interactive Photo Gallery</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/Photo-Gallery/">
+                <img
+                  src="./src/imgs/photo-gallery-thumb.png"
+                  alt="interactive photo gallery thumbnail"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              A photo gallery with responsive images that can be clicked and
+              viewed at their full size and navigated through with arrows. Also
+              includes a search button that filters images in real time. This
+              functionality uses my own JavaScript as well as an external
+              JavaScript app called lightbox.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+            <div class="btn btn--primary">JavaScript</div>
+          </div>
+          <div class="project__gh">
+            <a
+              href="https://github.com/JJMcCauley/Treehouse-FE-Project-5-Gallery"
+            >
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-left" class="project">
+          <h3>RPG Game (WIP)</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/rpg_combat/public/index.html">
+                <img
+                  src="./src/imgs/rpg-combat-thumb.png"
+                  alt="rpg game thumbnail"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              A RPG game in the style of an old-fashioned RPG written entirely
+              in HTML, CSS, and JS. Uses the bootstrap library for some styling
+              and uses WebPack which allows me to compartmentalize my javascript
+              across many files to increase readabilty and keeping the code
+              maintainable. Game information is organized as a JSon library.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+            <div class="btn btn--primary">JavaScript</div>
+            <div class="btn btn--secondary">Bootstrap</div>
+            <div class="btn btn--primary">WebPack</div>
+            <div class="btn btn--secondary">JSON</div>
+          </div>
+          <div class="project__gh">
+            <a href="https://github.com/JJMcCauley/RPG-Game">
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-right" class="project">
+          <h3>Employee Directory</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/Random-Employee-Directory/">
+                <img
+                  src="./src/imgs/random-employee-thumb.png"
+                  alt="employee directory thumbnail"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              Example of an employee directory which is actively updated from an
+              external API to grab twelve random employees on every refresh,
+              includes the ability to view more details of each employees and
+              search for employees by name, all of which was coded in
+              JavaScript.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">CSS</div>
+            <div class="btn btn--primary">JavaScript</div>
+            <div class="btn btn--secondary">API</div>
+          </div>
+          <div class="project__gh">
+            <a
+              href="https://github.com/JJMcCauley/Treehouse-FE-Project-8-Directory"
+            >
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-left" class="project">
+          <h3>Calculator</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/Calculator-App/">
+                <img
+                  src="./src/imgs/calculator-thumb.png"
+                  alt="Calculator thumbnail"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              A fully functional calculator web app. The layout was made using
+              the bootstrap frame-work and all the functionatlity was added in
+              JavaScript. Supports basic operations as well as exponents and
+              will convert results to scientific notation when numbers get too
+              large for display.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">HTML</div>
+            <div class="btn btn--secondary">JavaScript</div>
+            <div class="btn btn--primary">BootStrap</div>
+          </div>
+          <div class="project__gh">
+            <a href="https://github.com/JJMcCauley/Calculator-App">
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+        <section data-aos="fade-right" class="project">
+          <h3>Guess What?!</h3>
+          <div class="project__header">
+            <div class="project__img">
+              <a href="project-sites/Guess-What/index.html">
+                <img
+                  src="./src/imgs/Guess-what.png"
+                  alt="Calculator thumbnail"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="project__text">
+            <p>
+              A guessing game to try and guess the mystery word or phrase based
+              on a category before running out of chances. HTML was provided for
+              a course but all interactivity was programmed in JavaScript by
+              myself and I also customized the CSS quite heavily.
+            </p>
+          </div>
+          <div class="project__tags grid mobile-1x2">
+            <div class="btn btn--primary">CSS</div>
+            <div class="btn btn--secondary">JavaScript</div>
+          </div>
+          <div class="project__gh">
+            <a
+              href="https://github.com/JJMcCauley/Treehouse-FE-Project-6-Guessing-Game"
+            >
+              <img class="git-logo" src="./src/svgs/github-svg.svg" alt="" />
+            </a>
+          </div>
+        </section>
+      </article>
+      <article class="container block website-info">
+        <div class="block__header"><h2>About This Website</h2></div>
+        <p data-aos="zoom-in" class="block__text">
+          This website was built with the mobile-first philosophy, making sure
+          that the website was engineered with mobile displays from the
+          beginning and ensuring an attractive, useable layout at any size. The
+          interactivity of the skils description and was written via JavaScript.
+        </p>
+      </article>
+      <article class="container block about-me">
+        <div class="block__header">
+          <h2>About Me</h2>
+        </div>
+        <div data-aos="flip-up" class="grid about-me-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/u5PohHbb1eY?autoplay=0&mute=1"
+          >
+          </iframe>
+
+          <div class="bio-wrapper">
+            <div class="block__header">
+              <h3>Bio</h3>
+            </div>
+            <div data-aos="flip-up" class="block__text about-me__text">
+              <p>
+                Welcome, and thank you for checking out my website. I'm Jack
+                McCauley and I am a 36 years old front-end web developer. I have
+                a bachelors from the University of Iowa in music and I have a
+                <a
+                  href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/57512804"
+                >
+                  front-end web development tech degree
+                </a>
+                from
+                <a href="https://teamtreehouse.com/profiles/jackmccauley86"
+                  >Team Treehouse</a
+                >. I've always been interested in how people can better
+                interface with technology and I see building websites as an
+                extension of that. If you have any questions feel free to
+                contact me on any of my socials, let's make great websites
+                together!
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="container block socials">
+      <div class="block__header">
+        <h2>Socials</h2>
+      </div>
+      <div data-aos="zoom-in" class="socials-wrapper">
+        <div class="socials__link">
+          <a href="mailto:mccauley.jack@gmail.com"> MCCAULEY.JACK@GMAIL.COM </a>
+        </div>
+        <div class="socials__link">
+          <a href="https://github.com/JJMcCauley">
+            <svg
+              class="icon8"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              width="48px"
+              height="48px"
+            >
+              <path
+                fill="#fff"
+                d="M41,24c0,9.4-7.6,17-17,17S7,33.4,7,24S14.6,7,24,7S41,14.6,41,24z"
+              />
+              <path
+                fill="#455a64"
+                d="M21 41v-5.5c0-.3.2-.5.5-.5s.5.2.5.5V41h2v-6.5c0-.3.2-.5.5-.5s.5.2.5.5V41h2v-5.5c0-.3.2-.5.5-.5s.5.2.5.5V41h1.8c.2-.3.2-.6.2-1.1V36c0-2.2-1.9-5.2-4.3-5.2h-2.5c-2.3 0-4.3 3.1-4.3 5.2v3.9c0 .4.1.8.2 1.1L21 41 21 41zM40.1 26.4C40.1 26.4 40.1 26.4 40.1 26.4c0 0-1.3-.4-2.4-.4 0 0-.1 0-.1 0-1.1 0-2.9.3-2.9.3-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.1.1 0 2-.3 3.1-.3 1.1 0 2.4.4 2.5.4.1 0 .1.1.1.2C40.2 26.3 40.2 26.4 40.1 26.4zM39.8 27.2C39.8 27.2 39.8 27.2 39.8 27.2c0 0-1.4-.4-2.6-.4-.9 0-3 .2-3.1.2-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.1.1 0 2.2-.2 3.1-.2 1.3 0 2.6.4 2.6.4.1 0 .1.1.1.2C39.9 27.1 39.9 27.2 39.8 27.2zM7.8 26.4c-.1 0-.1 0-.1-.1 0-.1 0-.1.1-.2.8-.2 2.4-.5 3.3-.5.8 0 3.5.2 3.6.2.1 0 .1.1.1.1 0 .1-.1.1-.1.1 0 0-2.7-.2-3.5-.2C10.1 26 8.6 26.2 7.8 26.4 7.8 26.4 7.8 26.4 7.8 26.4zM8.2 27.9c0 0-.1 0-.1-.1 0-.1 0-.1 0-.2.1 0 1.4-.8 2.9-1 1.3-.2 4 .1 4.2.1.1 0 .1.1.1.1 0 .1-.1.1-.1.1 0 0 0 0 0 0 0 0-2.8-.3-4.1-.1C9.6 27.1 8.2 27.9 8.2 27.9 8.2 27.9 8.2 27.9 8.2 27.9z"
+              />
+              <path
+                fill="#455a64"
+                d="M14.2,23.5c0-4.4,4.6-8.5,10.3-8.5c5.7,0,10.3,4,10.3,8.5S31.5,31,24.5,31S14.2,27.9,14.2,23.5z"
+              />
+              <path
+                fill="#455a64"
+                d="M28.6 16.3c0 0 1.7-2.3 4.8-2.3 1.2 1.2.4 4.8 0 5.8L28.6 16.3zM20.4 16.3c0 0-1.7-2.3-4.8-2.3-1.2 1.2-.4 4.8 0 5.8L20.4 16.3zM20.1 35.9c0 0-2.3 0-2.8 0-1.2 0-2.3-.5-2.8-1.5-.6-1.1-1.1-2.3-2.6-3.3-.3-.2-.1-.4.4-.4.5.1 1.4.2 2.1 1.1.7.9 1.5 2 2.8 2 1.3 0 2.7 0 3.5-.9L20.1 35.9z"
+              />
+              <path
+                fill="#00bcd4"
+                d="M24,4C13,4,4,13,4,24s9,20,20,20s20-9,20-20S35,4,24,4z M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8 s16,7.2,16,16S32.8,40,24,40z"
+              />
+            </svg>
+            GitHub
+          </a>
+        </div>
+        <div class="socials__link">
+          <a href="https://www.linkedin.com/in/jack-mccauley-5132a8239/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              width="48px"
+              height="48px"
+            >
+              <path
+                fill="#0288d1"
+                d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"
+              />
+              <path
+                fill="#fff"
+                d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"
+              />
+            </svg>
+            Linkedin
+          </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; Jack McCauley, 2022</p>
+      </div>
+    </footer>
+    <!-- main.html -->
+    <!-- footer.html -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./src/js/skills-description-updater.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <div></div>
+  </body>
+</html>

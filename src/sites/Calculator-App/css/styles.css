@@ -1,0 +1,42 @@
+.vh-80 {
+  height: 80vh;
+}
+
+#display-container,
+#img {
+  width: 90%;
+}
+
+#display-container {
+  margin: 3rem 0;
+}
+
+.btn-primary {
+  height: 45px;
+  width: 45px;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+#calculator-container {
+  max-width: 305px;
+  max-height: 480px;
+}
+
+#display-container {
+  position: relative;
+}
+
+#operand {
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.75rem;
+}

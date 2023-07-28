@@ -1,0 +1,134 @@
+main {
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position-x: 10%;
+}
+
+* {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: rgb(13, 202, 240);
+}
+
+h4 {
+  color: rgb(46, 194, 46);
+}
+
+p {
+  color: rgb(150, 150, 150);
+  font-size: 1.2rem;
+}
+
+#common-info,
+#magic-info {
+  display: none;
+}
+
+#magic-info {
+  color: rgb(121, 40, 121);
+}
+
+#side-note {
+  font-size: 0.8rem;
+}
+
+img#class-photo {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+div#spell-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div#subclass-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+}
+
+a {
+  cursor: pointer;
+}
+
+h5#spell-label {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.montserrat {
+  font-family: "montserrat", sans-serif;
+  color: white;
+}
+
+#spell-modal-body p {
+  color: black;
+}
+
+.black {
+  color: black;
+}
+
+.turqoise {
+  color: rgb(13, 202, 240);
+}
+
+.green {
+  color: rgb(46, 194, 46);
+}
+
+.grey {
+  color: rgb(150, 150, 150);
+}
+
+.overlay-nav {
+  position: absolute;
+  font-size: 5em;
+  display: flex;
+  height: 150px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-left {
+  top: 200px;
+  left: -100px;
+}
+
+#nav-right {
+  top: 200px;
+  right: -100px;
+}
+
+.overlay-nav {
+  cursor: pointer;
+  border: 1px solid #778;
+  background-color: whitesmoke;
+  transition: background-color 0.4s ease-out;
+}
+
+.overlay-nav:hover {
+  background-color: rgb(159, 255, 255);
+}
+
+#modal-content {
+  overflow: inherit;
+}
+
+#sort-type {
+  display: flex;
+}
+
+.form-check-inline {
+  width: 10%;
+}
